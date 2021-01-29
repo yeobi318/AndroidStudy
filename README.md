@@ -1,6 +1,5 @@
 AndroidStudy
 ========
-![Alt text](C:\Users\sjsol\Downloads\20180714_083443.jpg Optional titie)
 These are android project files for studying android and get into senier project(pure java)
 --------
 ## 1. ActivityValueTransfer
