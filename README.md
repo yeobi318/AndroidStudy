@@ -1,5 +1,6 @@
 AndroidStudy
 ========
+![20180714_083443](https://user-images.githubusercontent.com/77742391/106236661-ade7a300-6240-11eb-893f-bcbdace1e939.jpg)
 These are android project files for studying android and get into senier project(pure java)
 --------
 ## 1. ActivityValueTransfer
