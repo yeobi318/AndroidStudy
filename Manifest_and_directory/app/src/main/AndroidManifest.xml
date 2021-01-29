@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manifest_and_directory">
+
+    <!--자잘한 앱 설정이 가능-->
+    <!--Ctrl+클릭으로 여러 옵션을 볼 수 있다-->
+    <!--icon-아이콘, label-빌드한 앱 이름, roundIcon-아이콘을 둥그스름하게 처리,-->
+    <!--theme-앱에서 주로 사용되는 색상, activity-액티비티의 선언을 담당,-->
+    <!--intent-filter, LAUNCHER: 앱이 실행될 때 어떤 인텐트가 먼저 실행되는가,-->
+    <!--res의 drawable-외부 이미지, layout-어플 레이아웃 담당, mimmap-어플 아이콘 관련,-->
+    <!--values\colors.xml-자기가 원하는 색상정보를 추가하거나 변경가능,-->
+    <!--values\strings.xml-많이 사용하는 용어를 매크로로 정의-->
+    <!--values\themes-여러가지 테마관련 값들-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Manifest_and_directory">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

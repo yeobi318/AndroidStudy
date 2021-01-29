@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/camera"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="카메라"/>
+    <item
+        android:id="@+id/timeline"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sticky_note_2_24"
+        android:title="타임라인"/>
+    <item
+        android:id="@+id/calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="캘린더"/>
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="프로필"/>
+    <item
+        android:id="@+id/network"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_wifi_24"
+        android:title="네트워크"/>
+</menu>

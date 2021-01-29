@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--RelativeLayout - 특정 위젯에 의지해서 레이아웃을 배치-->
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#3E56DF"
+        android:text="여비 덥다"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취업하고 싶다"/>
+<!--layout_below - tv_1을 기준으로 밑에 배치하고 싶다-->
+<!--layout_toRightOf - 오른쪽에 배치-->
+<!--alignParentBottom, centerInParent - 부모레이아웃 기준 하단 중앙 정렬-->
+<!--RelativeLayout에서는 gravity를 사용하지 않는다.-->
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_2"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="#3E56DF"
+        android:text="여비 덥다"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textColor="#3E56DF"
+        android:text="여비 덥다"/>
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textColor="#3E56DF"
+        android:text="여비 덥다"/>
+</RelativeLayout>

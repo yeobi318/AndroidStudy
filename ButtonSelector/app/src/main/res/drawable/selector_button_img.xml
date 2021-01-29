@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/android_wink">
+
+    </item>
+
+    <item android:state_pressed="false" android:drawable="@drawable/android_smile">
+
+    </item>
+</selector>
+<!--버튼이 눌릴 때, 안눌릴 때의 이미지 설정-->

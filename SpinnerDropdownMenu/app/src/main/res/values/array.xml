@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test">
+        <item>여비</item>
+        <item>공돌이</item>
+        <item>사나이</item>
+    </string-array>
+</resources>
+<!--배열이름, 드롭다운 메뉴에 들어갈 항목을 기록-->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--orientation: 텍스트 정렬방향을 결정-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6A3CBC"
+            android:textSize="20sp"
+            android:text="오늘도 힘차고 강한 하루! 내 이름은 왈도!"/>
+    <!--match_parent: 프레임 크기에 의해 결정-->
+    <!--wrap_content: 콘텐츠 크기에 의해 결정-->
+    <!--textColor: 텍스트색상-->
+    <!--textSize: 텍스트크기-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:text="모두들 즐 \거운 하루!"/>
+
+</LinearLayout>
