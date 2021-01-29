@@ -3,8 +3,7 @@ AndroidStudy
 These are android project files for studying android and get into senier project(pure java)
 --------
 ## 1. ActivityValueTransfer
-### It transfer value from user in subactivity to mainactivity.
-
+### It transfer value from user in subactivity to mainactivity.\
 ## 2. Android-SpinKit-Master
 ### It is useful loading animation made by opensource.
 ## 3. BackExit
