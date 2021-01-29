@@ -73,3 +73,5 @@ These are android project files for studying android and get into senier project
 ### Connect ViewPager2 with Fragment.
 ## 35. WebView
 ### Make app connect with certain URL.
+##### More guidelines are [here][link]
+[link]: https://www.youtube.com/watch?v=UNKlX9J6m-A&list=PLC51MBz7PMyyyR2l4gGBMFMMUfYmBkZxm
