@@ -39,4 +39,5 @@ dependencies {
     implementation 'androidx.room:room-runtime:2.2.5'
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
     implementation "androidx.lifecycle:lifecycle-livedata:2.2.0"
+    implementation 'com.akexorcist:bluetoothspp:1.0.0'
 }
