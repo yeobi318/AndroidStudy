@@ -259,7 +259,6 @@ public class RoomActivity extends AppCompatActivity {
             }
         });
     }
-
      */
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
