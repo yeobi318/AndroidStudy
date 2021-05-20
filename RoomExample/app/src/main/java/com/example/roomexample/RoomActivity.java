@@ -101,6 +101,7 @@ public class RoomActivity extends AppCompatActivity {
              *  AsyncTask 생성자에 execute 로 DataModelDAO 객체를 던저준다.
              *  비동기 처리
              **/
+
         /*
             new DaoAsyncTask(db.dataModelDAO(),INSERT,0,"", "")
                     .execute(new DataModel("0", "0"));
